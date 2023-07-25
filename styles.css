@@ -8,6 +8,7 @@ html, body {
   height: 100%;
 }
 body {
+  background-color: hsl(30, 38%, 92%);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -23,4 +24,17 @@ h3, h1, h2, h3, h4, h5, h6 {
 }
 #root, #__next {
   isolation: isolate;
+}
+.main-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  background-color: white;
+  font-size: .875rem;
+  max-width: 30rem;
+  margin: 1rem;
 }
