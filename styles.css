@@ -37,4 +37,54 @@ h3, h1, h2, h3, h4, h5, h6 {
   font-size: .875rem;
   max-width: 30rem;
   margin: 1rem;
+  font-family: "montserrat", sans-serif;
+  border-radius: 10px;
+}
+img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-content{
+  margin: 1rem;
+}
+.main-content *{
+  margin-bottom: 1rem;
+}
+.perfume-text{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+h1{
+  line-height: 30px;
+}
+.grayish-blue{
+  color: hsl(228, 12%, 48%);
+}
+.fraunces-font{
+  font-family: "Fraunces", sans-serif;
+}
+.pricing{
+  display: flex;
+  align-items: center;
+}
+.pricing * {
+  margin-bottom: 0;
+}
+.msrp{
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  font-size: 2em;
+  margin-right: 20px;
+}
+.discount{
+  text-decoration: line-through;
+}
+button{
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border-radius: 5px;
+  padding: .7rem;
+  font-weight: bold;
+  border: none;
 }
